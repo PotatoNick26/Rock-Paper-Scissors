@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #7d8597;
+}
+
+#hero {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    color: #dad2bc;
+    background-color: #0466c8;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    padding: 2px;
+    transition: all 0.2s ease-in-out;
+    margin: 0px 10px 0px; 
+    opacity: 70%;   
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+}
+.btn:active {
+    transform: scale(1.0);
+    transition: none;
+}
+
+#heading {
+    color: #0353a4;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+
+p {
+    color: #023e7d;
+    font-weight: bold;
+}
+
+#strt {
+  width: 200px;
+    height: 50px;  
+    margin: 40px 10px 0px; 
+    border-radius: 10px;
+    padding: 15px 10px;   
+    
+}
+
+#strtg {
+  width: 120px;
+    height: 50px;  
+    margin: 40px 10px 0px; 
+    border-radius: 10px;
+    opacity: 0;  
+}
+
+.choiceimg {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+#scissorspng {
+    width: 60px;
+}
+
+#temp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fnlmsgt {
+    color: #FFFFFF;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+
+#fnlmsgl {
+    color: darkred;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+
+#fnlmsgw {
+    color: green;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+
+#vs {
+    color: #023e7d;
+    font-weight: bold;
+}
+
+#fimg {
+    display: flex;
+    flex-direction: row;
+    
+}
